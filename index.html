@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chess board</title>
+</head>
+
+<body>
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+
+  <script src="js/main.js"></script>
+
+  <div id="button1">
+    <h1> One player: </h1>
+    <h2>Difficulty:</h2>
+    <button onclick="play(true, low)">Low</button>
+    <button onclick="play(true, medium)" >Medium</button>
+    <button onclick="play(true, high)">High</button>
+  </div>
+  <div id="button2">
+    <h1>Two players: </h1>
+    <button onclick="play(false, low)" >Two players</button>
+  </div>
+</body>
+
+</html>
